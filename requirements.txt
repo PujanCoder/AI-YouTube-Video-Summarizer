@@ -1,0 +1,33 @@
+# ══════════════════════════════════════════════════════════
+#  YouTube AI Summarizer — Python Dependencies
+#  Install: pip install -r requirements.txt
+# ══════════════════════════════════════════════════════════
+
+# ── Web UI ──────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── LangChain core + providers ──────────────────────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0       # OpenAI provider
+langchain-groq>=0.1.4         # Groq provider (free, fast)
+
+# ── Transcript extraction ────────────────────────────────
+youtube-transcript-api>=0.6.2
+
+# ── Vector store (in-memory RAG) ────────────────────────
+faiss-cpu>=1.8.0              # CPU-only FAISS for RAG Q&A
+
+# ── LLM API clients ─────────────────────────────────────
+openai>=1.30.0
+groq>=0.9.0
+
+# ── PDF export ───────────────────────────────────────────
+reportlab>=4.2.0
+
+# ── Environment / config ─────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Utilities ────────────────────────────────────────────
+requests>=2.31.0
